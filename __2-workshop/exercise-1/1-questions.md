@@ -4,9 +4,9 @@
 
 Type true/false in the provided [ ].
 
-a) [ ] `<div><span>hello</div></span>`
+a) [false] `<div><span>hello</div></span>`
 
-b) [ ]
+b) [false]
 
 ```html
 <ul>
@@ -14,19 +14,21 @@ b) [ ]
 </ol>
 ```
 
-c) [ ] `<ul></ul><img/><ol><li>one</li></ol>`
+c) [false] `<ul></ul><img/><ol><li>one</li></ol>`
 
 ## Q2 - What is a screenreader and why should we care about them?
 
-_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_
+_Feel free to use the powers of Google here, but please provide link(s) to your source(s)_ 
+
+Answer : screenreader will "read" the website for visually impaired people 
 
 ## Q3 - For each of the following cases, which tags will be needed?
 
-a) You want to create a webpage with the photos from your latest vacation
+a) You want to create a webpage with the photos from your latest vacation : <img>
 
-b) You want to create a website that lists all the art gallery websites in your city and links to their website.
+b) You want to create a website that lists all the art gallery websites in your city and links to their website. <a>
 
-c) You want to sell designer hats. You need to receive orders from the user.
+c) You want to sell designer hats. You need to receive orders from the user. <form>
 
 ## Q4 - Can a `button` be a child of a `button`? Explain your reasoning
 
@@ -34,30 +36,45 @@ c) You want to sell designer hats. You need to receive orders from the user.
 
 ## Q6 - What do the following achronyms stand for?
 
-a) `a`
+a) `a` : anchor
 
-b) `ol`
+b) `ol` : Ordered list
 
-c) `ul`
+c) `ul`: Unordered list 
 
-d) `li`
+d) `li` : list item 
 
-e) `tr`
+e) `tr` : table row 
 
-f) `th`
+f) `th` : table header 
 
-g) `td`
+g) `td` : table data 
 
 ## Q7 - Usually, `td` elements are children of what kind of elements?
 
-## Q8 - What is the difference between td and th?
+ <tr>
 
-## Q9 - Which tag makes the text appear bigger: h1 or h3?
+## Q8 - What is the difference between td and th? 
 
-## Q10 - In which situation can you use self closing tags?
+td = data th = header 
 
-## Q11 - What is autofilling and why is it important?
+## Q9 - Which tag makes the text appear bigger: h1 or h3? 
 
-## Q12 - Which attributes are always present in an img element?
+<h1>
 
-## Q13 - Which attribute is always present for an anchor tag?
+## Q10 - In which situation can you use self closing tags? 
+
+<img>, <a>
+
+## Q11 - What is autofilling and why is it important? 
+
+Auto-fill input form, important for screen reader 
+
+## Q12 - Which attributes are always present in an img element? 
+
+src=""
+alt=""
+
+## Q13 - Which attribute is always present for an anchor tag? 
+
+href=""
